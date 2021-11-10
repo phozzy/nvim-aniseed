@@ -1,2 +1,3 @@
-(module dotfiles.init)
+(module init)
 
+(require :core)

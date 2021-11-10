@@ -1,0 +1,6 @@
+(module core
+  {autoload {nvim aniseed.nvim}})
+
+;; Generic Neovim configuration.
+(set nvim.o.signcolumn "yes")
+(set nvim.o.undofile true)
