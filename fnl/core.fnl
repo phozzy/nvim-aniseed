@@ -4,3 +4,4 @@
 ;; Generic Neovim configuration.
 (set nvim.o.signcolumn "yes")
 (set nvim.o.undofile true)
+(set nvim.o.colorcolumn "80")
