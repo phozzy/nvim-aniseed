@@ -24,3 +24,9 @@ ensure("lewis6991", "impatient.nvim")
 
 -- Load impatient which pre-compiles and caches Lua modules.
 require("impatient")
+
+-- Enable Aniseed's automatic compilation and loading of Fennel source code.
+vim.g["aniseed#env"] = {
+  module = "dotfiles.init",
+  compile = true
+}
