@@ -7,3 +7,4 @@
   :wbthomason/packer.nvim {}
   :Olical/aniseed {}
   :lewis6991/impatient.nvim {})
+nil
