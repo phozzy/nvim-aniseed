@@ -3,6 +3,7 @@
 
 ;; Plugins to be managed by packer.
 (util.use
+  :nvim-lua/plenary.nvim {}
   :folke/tokyonight.nvim {}
   :famiu/feline.nvim {}
   ;; core plugins add other above
