@@ -4,6 +4,7 @@
 ;; Plugins to be managed by packer.
 (util.use
   :folke/tokyonight.nvim {}
+  :famiu/feline.nvim {}
   ;; core plugins add other above
   :wbthomason/packer.nvim {}
   :Olical/aniseed {}
