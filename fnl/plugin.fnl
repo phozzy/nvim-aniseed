@@ -5,7 +5,7 @@
 (util.use
   :nvim-lua/plenary.nvim {}
   :lewis6991/gitsigns.nvim {:mod :gitsigns :requires [:nvim-lua/plenary.nvim]}
-  :folke/tokyonight.nvim {}
+  :folke/tokyonight.nvim {:mod :tokyonight}
   :famiu/feline.nvim {:mod :feline}
   ;; core plugins add other above
   :wbthomason/packer.nvim {}
