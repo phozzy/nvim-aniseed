@@ -5,6 +5,7 @@
 (util.use
   :nvim-lua/plenary.nvim {}
   :lewis6991/gitsigns.nvim {:mod :gitsigns :requires [:nvim-lua/plenary.nvim]}
+  :TimUntersberger/neogit {:mod :neogit :requires [:nvim-lua/plenary.nvim]}
   :folke/tokyonight.nvim {:mod :tokyonight}
   :famiu/feline.nvim {:mod :feline}
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate" :mod :treesitter}
