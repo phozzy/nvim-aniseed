@@ -4,6 +4,7 @@
 ;; Plugins to be managed by packer.
 (util.use
   :nvim-lua/plenary.nvim {}
+  :kyazdani42/nvim-web-devicons {:mod :devicons}
   :lewis6991/gitsigns.nvim {:mod :gitsigns :requires [:nvim-lua/plenary.nvim]}
   :TimUntersberger/neogit {:mod :neogit :requires [:nvim-lua/plenary.nvim]}
   :akinsho/toggleterm.nvim {:mod :toggleterm :requires [:nvim-lua/plenary.nvim]}
