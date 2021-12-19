@@ -9,6 +9,7 @@
   :lewis6991/gitsigns.nvim {:mod :gitsigns :requires [:nvim-lua/plenary.nvim]}
   :TimUntersberger/neogit {:mod :neogit :requires [:nvim-lua/plenary.nvim]}
   :akinsho/toggleterm.nvim {:mod :toggleterm :requires [:nvim-lua/plenary.nvim]}
+  :akinsho/bufferline.nvim {:mod :bufferline :requires [:kyazdani42/nvim-web-devicons]}
   :folke/tokyonight.nvim {:mod :tokyonight}
   :folke/which-key.nvim {}
   :famiu/feline.nvim {:mod :feline}
