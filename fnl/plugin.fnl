@@ -10,6 +10,7 @@
   :TimUntersberger/neogit {:mod :neogit :requires [:nvim-lua/plenary.nvim]}
   :akinsho/toggleterm.nvim {:mod :toggleterm :requires [:nvim-lua/plenary.nvim]}
   :folke/tokyonight.nvim {:mod :tokyonight}
+  :folke/which-key.nvim {}
   :famiu/feline.nvim {:mod :feline}
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate" :mod :treesitter}
   ;; core plugins add other above
